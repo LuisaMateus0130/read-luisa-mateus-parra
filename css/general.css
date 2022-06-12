@@ -19,6 +19,10 @@ a{
     background-color: #009277;
     font-size: 24px;
 }
+.green-button:hover{
+transform: scale(1.2);
+transition: all 1s;
+}
 
 .sub-title {
     color: #439D7D;

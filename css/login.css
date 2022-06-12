@@ -18,7 +18,18 @@ header nav div {
 }
 
 header nav div img {
-    height: 6vh;
+    animation-duration: 2s;
+    animation-name: animacion;
+    animation-iteration-count: infinite; 
+}
+@keyframes animacion{
+    from{
+
+    }
+    to{
+        transform: rotate(5deg);
+        transform-origin: top left;
+    }
 }
 
 header nav div h1 {
@@ -27,6 +38,11 @@ header nav div h1 {
 
 header nav div h1, header nav div a {
     color: #06B696;
+}
+
+header nav div h1, header nav div a:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 header nav div .green-button {
@@ -92,6 +108,14 @@ main {
     font-size: 24px;
     line-height: 29px;
 }
+main div img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#log-in-form-container form input:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 
 #log-in-form-container form button {
     background-color: #06B696;
@@ -121,6 +145,19 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+#log-in-sub-title:hover {
+    animation-duration:  2s;
+    animation-name: animacion-texto;
+    animation-iteration-count: infinite; 
+}
+@keyframes animacion-texto{
+    from{
+
+    }
+    to{
+        transform: scale(1.2);
+    }
 }
 
 #log-in-sub-title h2 {
