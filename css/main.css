@@ -1,0 +1,828 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* CSS de HTML Home*/
+
+html{
+    scroll-padding-top: 90px;
+}
+
+.principalHeader{
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    width: 1380px;
+    background-color: white;
+    height: 90px;
+}
+
+.logo{
+    height: 66px;
+    width: 66px;
+}
+
+header nav ul li {
+    color: #06B696;
+    list-style: none;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.homeMenu{
+    position: relative;
+    left: 800px;
+    top: -50px;
+}
+
+header nav ul li a{
+    color: #06B696;
+}
+
+.buttonLogin{
+    background-color: #06B696;
+    border-color: #439D7D;
+    font-size: 24px;
+    color: white;
+    width: 166px;
+    height: 60px;
+    border-radius: 38px;
+}
+
+.buttonStartnow{
+    background-color: #009277;
+    border-color: #439D7D;
+    font-size: 24px;
+    color: white;
+    width: 189px;
+    height: 60px;
+    border-radius: 38px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    position: relative;
+    top: -600px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.homeTitulo{
+    height: 308px;
+    width: 579px;
+    margin: 30px;
+    position: relative;
+    top: 100px;
+    font-family: 'Lato', sans-serif;
+}
+
+.homeParrafo{
+    height: 83px;
+    width: 553px;
+    margin: 30px;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    left: -25px;
+}
+
+h1{
+    color: #439D7D;
+    font-size: 60px;
+}
+
+main{
+    background-image: url(/Img/fondoHome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 825px;
+    width: 1380px;
+}
+
+#homeMuneca{
+    width:  671px;
+    height: 799px;
+    top: -280px;
+    margin-left: 800px;
+    position: relative;
+}
+
+p{
+    color: #585F63;
+    font-size: 30px;
+}
+
+.sectionAboutus{
+    background-image: url(/Img/fondoAboutus.png);
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    width: 1380px;
+    height: 904px;
+}
+
+.aboutusTitulo{
+    font-size: 55px;
+    color: #439D7D;
+    position: relative;
+    top: 50px;
+    left: 20px;  
+}
+
+.aboutusMuneca{
+    position: relative;
+    top: 360px;
+    transform: scaleX(-1);
+    left: 600px;
+    width: 694px;
+    height: 600px;
+}
+
+.aboutusText{
+    width: 1206px;
+    height: 172px;
+    position: relative;
+    top: -500px;
+    left: 20px;
+}
+
+.buttonContactus{
+    background-color: #009277;
+    border-color: #439D7D;
+    font-size: 24px;
+    color: white;
+    width: 189px;
+    height: 60px;
+    border-radius: 38px;
+    margin-left: -400px;
+    position: relative;
+    top: -400px;
+}
+
+iframe{
+    width: 635px;
+    height: 319px;
+    position:relative;
+    top: -500px;
+    left: 20px;
+}
+
+.sectionCategories{
+    background-image: url(/Img/fondoCategories.png);
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    width: 1380px;
+    height: 904px;
+}
+
+.textCategories{
+    font-size: 55px;
+    color: #439D7D;
+    position: relative;
+    top: 30px;
+    left: 20px;  
+}
+
+.categoriesCuadro{
+    border: 3px ridge gray;
+    width: 380px;
+    height: 382px;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    left: 20px;
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+table{
+    position: relative;
+    top: 120px;
+    left: 250px;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    border: 3px solid #009277;
+    border-collapse: collapse; 
+    background-color: white;
+    
+}
+
+tr{
+    border: 1px solid #009277;
+    border-collapse: collapse;  
+}
+
+td{
+    border: 1px solid #009277;
+    border-collapse: collapse; 
+    column-width: 200px; 
+}
+
+.tableFondo{
+    background-color: #68F0CF;
+}
+
+.categriesTitulos{
+    font-size: 36px;
+    position: relative;
+    top: 25px;
+}
+
+section div ul li{
+    position: relative;
+    top: 60px;
+    color: gray;
+    list-style: none;
+}
+
+.categoriesButton{
+    background-color: #009277;
+    color: white;
+    font-size: 24px;
+    width: 189px;
+    height: 60px;
+    border-radius: 38px;
+    position: relative;
+    top: 100px;
+}
+
+.footerIcono{
+    position: relative;
+    width: 39px;
+    height: 39px;
+    left: 1200px;
+    top:-30px;
+}
+
+footer{
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    top: 0px;
+    left:20px;
+}
+
+
+
+
+
+
+/*CSS HTML Log in*/
+
+.loginHome{
+    background-image: url(/Img/fondoLogin.png);
+}
+
+.loginLogo{
+     height: 66px;
+    width: 66px;
+    position: relative;
+    left: 20px;
+}
+
+.loginLi{
+    color: #06B696;
+    background-color: white;
+    list-style: none;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+    top: -50px;
+    left: 850px;
+}
+
+.loginRead{
+    position: relative;
+    left: 30px;
+    top: -20px;
+}
+
+.loginButton{
+    background-color: #06B696;
+    border-color: #439D7D;
+    font-size: 24px;
+    color: white;
+    width: 166px;
+    height: 60px;
+    border-radius: 38px;
+    position: relative;
+    top: -50px;
+    left: 840px;
+}
+
+.loginText{
+    color: #17C6A6;
+    height: 200px;
+    width: 579px;
+    margin: 30px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    font-family: 'Lato', sans-serif;
+    font-size: 64px;
+}
+
+.helloText{
+    color: #009277;
+    width: 579px;
+    margin: 30px;
+    position: relative;
+    top: 0px;
+    left: 900px;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+}
+
+.welcomeText{
+    color: #399C8A;
+    width: 579px;
+    margin: 30px;
+    position: relative;
+    top: 0px;
+    left: 900px;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+}
+
+.loginForm{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    display: inline-block;
+    width: 500px;
+    position: relative;
+    left: 200px;
+    top: -150px;
+    color: #06B696;
+}
+
+.formButton{
+    background-color: #06B696;
+    border-color: #439D7D;
+    font-size: 24px;
+    color: white;
+    width: 166px;
+    height: 60px;
+    border-radius: 38px;
+    position: relative;
+    top: -5px;
+    left: 180px;
+}
+
+.forgotLogin{
+    position: relative;
+    left: 250px;
+}
+
+
+
+
+
+
+/*CSS de HTML SingUp*/
+
+.singupHome{
+    background-image: url(/Img/fondoSingup.png);
+    background-repeat: no-repeat;
+}
+
+.singupRead{
+    position: relative;
+    left: 60px;
+    top: -60px;
+}
+
+.signupText{
+    color: #17C6A6;
+    height: 200px;
+    width: 579px;
+    margin: 30px;
+    position: relative;
+    top: 100px;
+    left: 800px;
+    font-family: 'Lato', sans-serif;
+    font-size: 64px;
+}
+
+.helloText2{
+    color: #009277;
+    width: 579px;
+    margin: 30px;
+    position: relative;
+    top: 20px;
+    left: 150px;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+}
+
+.welcomeText2{
+    color: #399C8A;
+    width: 579px;
+    margin: 30px;
+    position: relative;
+    left: 250px;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+}
+
+.signupForm{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    display: inline-block;
+    width: 500px;
+    position: relative;
+    left: 800px;
+    top: -150px;
+    color: #06B696;
+}
+
+.formButton2{
+    background-color: #06B696;
+    border-color: #439D7D;
+    font-size: 24px;
+    color: white;
+    width: 166px;
+    height: 60px;
+    border-radius: 38px;
+    position: relative;
+    top: 80px;
+    left: 180px;
+}
+
+.iconosInfo{
+    position: relative;
+    left: -200px;
+}
+
+form input {
+    border: 1px solid green;
+    border-radius: 15px;
+    padding: 5px 0px 5px 10px;
+}
+
+
+
+
+/*CSS HTML Home2*/
+
+.home2Read{
+    position: relative;
+    left: 60px;
+    top: -50px;
+    z-index: 3;
+}
+
+.home2Header{
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    width: 100%;
+    background-color: #d7f4ed;
+    height: 90px;
+    z-index: 3;
+}
+
+.home2Li{
+    color: #06B696;
+    list-style: none;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+    top: -50px;
+    left: 950px;
+}
+
+.home2Button{
+    background-color: #06B696;
+    border-color: #439D7D;
+    font-size: 24px;
+    color: white;
+    width: 166px;
+    height: 60px;
+    border-radius: 38px;
+    position: relative;
+    top: -50px;
+    left: 930px;
+}
+
+.home2Text{
+    color: #439D7D;
+    height: 200px;
+    width: 579px;
+    margin: 30px;
+    position: relative;
+    top: 100px;
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+}
+
+.estiloFondo{
+    width: 216px;
+    height: 162px;
+    position: relative;
+    left: -300px;
+}
+
+.estiloFoto{
+    width: 127px;
+    height: 127px;
+    border-radius: 100px;
+    position: relative;
+    z-index: 2;
+    left: -120px;
+}
+
+.estiloCuadros{
+    width: 939px;
+    height: 188px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    color: #585F63;
+    text-align: center;
+    position: relative;
+    top: -250px;
+    left: -20px;
+    padding: 20px;
+}
+
+.estiloBandera{
+    width: 18px;
+    height: 16px;
+    position: relative;
+    top: -365px;
+    left: 280px;
+}
+
+.estiloButton{
+    background-color: #06B696;
+    border-color: #439D7D;
+    font-size: 24px;
+    color: white;
+    width: 176px;
+    height: 41px;
+    border-radius: 10px;
+    position: relative;
+    top: -50px;
+    left: 930px;
+    position: relative;
+    top: -370px;
+    left: 780px;
+}
+
+.estiloTitle{
+    color: #439D7D;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    position: relative;
+    top: -80px;
+    left: 20px;
+}
+
+.estiloNombre{
+    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    position: relative;
+    top: -310px;
+}
+
+.estiloPais{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    position: relative;
+    top: -310px;
+    color: #6D787C;
+}
+
+.estiloSeccion{
+    position: relative;
+    height: 350px;
+    width: 900px;
+    left: 300px;
+    top: -50px;
+}
+
+/*CSS HTML Create*/
+
+.createLi{
+    margin-left: 200px ;
+}
+
+.createText{
+    color: #439D7D;
+    height: 200px;
+    width: 740px;
+    margin: 30px;
+    position: relative;
+    top: 100px;
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    text-align: left;
+    margin-left: 680px;
+}
+
+.estiloFondo2{
+    width: 216px;
+    height: 162px;
+    position: relative;
+    top: -80px;
+}
+
+.estiloFoto2{
+    width: 127px;
+    height: 127px;
+    border-radius: 100px;
+    position: relative;
+    z-index: 2;
+    top: -85px;
+    left: 170px;
+}
+
+.estiloTitleBlog{
+    padding: 5px 830px 30px 10px;
+    border-radius: 10px;
+    margin: 20px;
+    position: relative;
+    top: -230px;
+    left: 270px;
+}
+
+.estiloBlog{
+    padding: 5px 850px 300px 10px;
+    border-radius: 10px;
+    position: relative;
+    top: -220px;
+    left: 270px;
+}
+
+.estiloSummaryBlog{
+    padding: 5px 850px 80px 10px;
+    border-radius: 10px;
+    position: relative;
+    top: -180px;
+    left: 270px;
+}
+
+.estiloButton2{
+    background-color: #06B696;
+    border-color: #439D7D;
+    font-size: 24px;
+    color: white;
+    width: 176px;
+    height: 41px;
+    border-radius: 10px;
+    position: relative;
+    top: -50px;
+    left: 930px;
+    position: relative;  
+}
+
+.estiloNombre2{
+    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    left: 70px;
+    z-index: 2;
+}
+
+.estiloPais2{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    position: relative;
+    top: -310px;
+    color: #6D787C;
+    top: 200px;
+    left: 70px;
+    z-index: 2;
+}
+
+.estiloBandera2{
+    width: 18px;
+    height: 16px;
+    position: relative;
+    top: 180px;
+    left: 730px;
+    z-index: 2;
+}
+
+
+
+
+
+
+/*CSS HTML ExampleBlog*/
+
+.exampleText{
+    color: #439D7D;
+    height: 200px;
+    width: 740px;
+    margin: 30px;
+    position: relative;
+    top: 100px;
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    margin-left: 500px;
+}
+
+.estiloCuadros2{
+    width: 939px;
+    height: 188px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    color: #585F63;
+    text-align: center;
+    position: relative;
+    top: -180px;
+    left: 280px;
+    padding: 5px 5px 300px 5px;
+}
+
+.estiloButton3{
+    background-color: #06B696;
+    border-color: #439D7D;
+    font-size: 24px;
+    color: white;
+    width: 176px;
+    height: 41px;
+    border-radius: 10px;
+    position: relative;
+    top: -100px;
+    left: -130px;
+}
+
+.estiloInput{
+    padding: 5px 790px 50px 10px;
+    border-radius: 10px;
+    position: relative;
+    top: -220px;
+    left: 75px;
+    border: 2px solid gray;
+}
+
+.estiloNombre3{
+    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    top: -250px;
+}
+
+.estiloPais3{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    top: -310px;
+    color: #6D787C;
+    position: relative;
+    top: -250px;
+    z-index: 2;
+}
+
+.estiloBandera3{
+    width: 18px;
+    height: 16px;
+    position: relative;
+    top: -270px;
+    left: 670px;
+    z-index: 2;
+}
+
+.commentsExample{
+    color: #439D7D;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    top: -210px;
+    left: 300px;
+    z-index: 2;
+}

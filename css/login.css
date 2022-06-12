@@ -1,0 +1,228 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    padding: 2vh;
+}
+
+header nav div {
+    display: flex;
+    align-items: center;
+    column-gap: 5%;
+    width: 25%;
+}
+
+header nav div img {
+    height: 6vh;
+}
+
+header nav div h1 {
+    font-size: 3vh;
+}
+
+header nav div h1, header nav div a {
+    color: #06B696;
+}
+
+header nav div .green-button {
+    background-color: #06B696;
+    font-weight: 400;
+    font-size: 2vh;
+    line-height: 29px;
+    height: 4vh;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas:
+        "log-in-form sub-title";
+    height: 92vh;
+    background-image: url("../Img/log_in_background_desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#log-in-form-container {
+    grid-area: log-in-form;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#log-in-form-container h2 {
+    color: #17C6A6;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    margin-bottom: 3vh;
+}
+
+#log-in-form-container div {
+    display: flex;
+    column-gap: 2vh;
+    margin-bottom: 5vh;
+}
+
+#log-in-form-container form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#log-in-form-container form label {
+    color: #06B696;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 1.5% 0%;
+}
+
+#log-in-form-container form input {
+    border-bottom: 1px solid #68F0CF;
+    margin: 1.5% 0%;
+    padding: 2%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+#log-in-form-container form button {
+    background-color: #06B696;
+    align-self: center;
+    height: 5vh;
+    font-size: 2vh;
+}
+
+#log-in-form-container p, #log-in-form-container a {
+    text-align: center;
+    margin-bottom: 3vh;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+#log-in-form-container p {
+    margin-top: 5vh;
+}
+
+#log-in-form-container a {
+    color: #000000;
+}
+
+#log-in-sub-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#log-in-sub-title h2 {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #009277;
+    margin-bottom: 2vh;
+}
+
+#log-in-sub-title h3 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #399C8A;
+}
+
+@media only screen and (max-width: 600px) {
+    header nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 1vh;
+    }
+
+    header nav div {
+        width: 100%;
+    }
+
+    header nav div img {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    header nav div h1 {
+        font-size: 4vw;
+    }
+    
+    header nav div a {
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #log-in-form-container {
+        order: 1;
+    }
+
+    #log-in-sub-title {
+        order: 0;
+        margin-top: 10vw;
+    }
+
+    #log-in-sub-title h2, #log-in-sub-title h3 {
+        text-align: center;
+    }
+
+    #log-in-sub-title h2 {
+        font-size: 6vw;
+        margin: 0px;
+        line-height: 8vw;
+    }
+
+    #log-in-sub-title h3 {
+        font-size: 4vw;
+    }
+
+    #log-in-form-container h2 {
+        font-size: 6vw;
+        margin-bottom: 3vw;
+        margin-top: 10vw;
+        line-height: 10vw;
+    }
+
+    #log-in-form-container div img {
+        width: 6vw;
+    }
+
+    #log-in-form-container form {
+        width: 80%;
+    }
+
+    #log-in-form-container form label {
+        font-size: 4vw;
+    }
+
+    #log-in-form-container form input {
+        font-size: 4vw;
+    }
+
+    #log-in-form-container form input, #log-in-form-container form label {
+        margin-top: 0px;
+    }
+
+    #log-in-form-container form p, #log-in-form-container form a {
+        font-size: 4vw;
+    }
+
+    #log-in-form-container form p {
+        margin-bottom: 0px;
+    }
+}

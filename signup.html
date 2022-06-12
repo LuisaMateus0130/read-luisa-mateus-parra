@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <!-- HTML que permite al usuario crear una cuenta e ingresar directamente.-->
+    <title>Sign up/READ</title>
+</head>
+
+<body class="singupHome">
+    <header class="principalHeader">
+        <nav>
+            <img class="loginLogo" src="./img/Book.png" alt="Imagen de un libro">
+            <ul>
+                <li>
+                    <a class="singupRead" href="./index.html"> READ </a>
+                </li>
+                <h2 class="loginLi">I have an account</h2>
+                <button class="loginLi loginButton">
+                    <a href="./login.html"> Log in </a>
+                </button>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="signupText">Create Account</h1>
+    <div class="iconosInfo">
+        <a href="https://www.instagram.com/coderhouse/" target="_blank">
+            <img class="footerIcono" src="./img/Instagram.png" alt="Logo de Instagram">
+        </a>
+        <a href="https://www.facebook.com/Coderhouse/" target="_blank">
+            <img class="footerIcono" src="./img/Facebook.png" alt="Logo de Facebook">
+        </a>
+        <a href="https://www.linkedin.com/school/coderhouse/" target="_blank">
+            <img class="footerIcono" src="./img/Linkedin.png" alt="Logo de Linkedin">
+        </a>
+    </div>
+
+    <div>
+        <h2 class="helloText2">¡Welcome to READ!</h2>
+        <h4 class="welcomeText2">Nice to meet you.</h4>
+    </div>
+
+    <!--El siguiente Formulario permite al usuario crear su cuenta y lo transportará al home de la misma.-->
+
+    <form class="signupForm" action="">
+        <fieldset>
+
+            <legend>Log in</legend>
+
+            <div>
+                <label for="Name"> Name </label>
+                <input name="Name" type="text" placeholder="Name">
+            </div>
+            <div>
+                <label for="E-mail"> E-mail </label>
+                <input name="E-mail" type="email" placeholder="E-mail">
+            </div>
+            <div>
+                <label for="Password">Password</label>
+                <input name="Password" type="password" placeholder="Password">
+            </div>
+            <div>
+                <label for="Confirm your Password">Confirm your password</label>
+                <input name="Confirm your Password" type="password" placeholder="Confirm your password">
+            </div>
+            <div>
+                <!--Dado que con la etiqueta "input" con atributo "Enviar" no me permite dirigir al usuario al Home de Entrada, utilizo un Botón con enlace relativo para que el usuario no se quede sin rumbo. Sin embargo entiendo la necesidad de validar los datos, pero espero aprenderlo con JavaScript o la herrmaienta indicada.-->
+                <button class="formButton2" > 
+                    <a href="./blogs_to_read.html"> Sign up </a>
+                </button>
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+
+<!-- Inserto mismo Footer del HTML Principal por condiones del desafío, sin embargo, considero que para la idea de mi proyecto no es necesario-->
+<footer>
+    <div id="Contact us">
+        <h5>Tel: +57 310-203-9290</h5>
+        <div>
+            <a href="https://www.instagram.com/coderhouse/" target="_blank">
+                <img class="footerIcono" src="./img/Instagram.png" alt="Logo de Instagram">
+            </a>
+            <a href="https://www.facebook.com/Coderhouse/" target="_blank">
+                <img class="footerIcono" src="./img/Facebook.png" alt="Logo de Facebook">
+            </a>
+            <a href="https://www.linkedin.com/school/coderhouse/" target="_blank">
+                <img class="footerIcono" src="./img/Linkedin.png" alt="Logo de Linkedin">
+            </a>
+        </div>
+    </div>
+</footer>
+
+</html>

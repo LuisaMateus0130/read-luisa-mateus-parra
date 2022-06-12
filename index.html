@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/general.css">
+    <!-- HTML Principal: El proyecto se trata de un sitio web para leer y crear mini blogs de lectura. Contiene la barra de menú de donde se puede acceder a las diferentes partes del HTML principal-->
+
+    <title>Home/READ</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="./img/book_logo.png" alt="Logo de la página">
+                <a href="./index.html">
+                    <h1>READ</h1>
+                </a>
+            </div>
+            <ul>
+                <li class="hidden-element"><a href="#categories">Categories</a></li>
+                <li class="hidden-element"><a href="#about-us">About us</a></li>
+                <li><a href="./signup.html" target="_blank">Sign up</a></li>
+                <li>
+                    <a href="./login.html">
+                        <button class="green-button"> Log in </button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+     <!-- Main: Página principal del Home de entrada del sitio web-->
+
+    <main>
+        <div>
+            <h2 class="sub-title">Share your <br>experiences and learn <br>from other people's experiences</h2>
+            <p class="sub-text">Reading is dreaming with your eyes open!</p>
+            <button class="green-button hidden-element">
+                <a href="./login.html"> Start now</a>
+            </button>
+        </div>
+        <img src="./img/girl_sit_on_chair.png" alt="Imagen de una niña sentada leyendo">
+    </main>
+
+    <!--Sección de "About Us": Se puede acceder a el scroleando ó clickeando en el el menú. Pertenece al mismo HTML principal-->
+
+
+    <section id="about-us">
+        <h2 class="sub-title">About Us</h2>
+        <p class="sub-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book.</p>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/iwaUan_AA2A"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <button class="green-button hidden-element">
+                <a href="#Contact us">Contact us</a>
+            </button>
+            <img src="./img/about_us_girl_image.png" alt="Imagen de una niña en el piso">
+        </div>
+    </section>
+
+    <!--Sección de "Categories": Se puede acceder a él scroleando ó clickeando en el el menú, y permite observar las categorías de lectores que a las que se puede acceder. Pertenece al mismo HTML principal.-->
+
+    <section id="categories">
+        <h2 class="sub-title">Categories</h2>
+
+        <div id="categorie-cards-container">
+            <div>
+                <h3>Beginner</h3>
+                <ul>
+                    <li>5-7 min reading time</li>
+                    <li>Common language blogs</li>
+                    <li>Blogs on everyday topics</li>
+                </ul>
+                <button class="green-button">
+                    <a href="./signup.html">Beginner</a>
+                </button>
+            </div>
+            <div>
+                <h3>Intermediate</h3>
+                <ul>
+                    <li>7-15 min of reading</li>
+                    <li>Blogs with academic language</li>
+                    <li>Blogs on interesting topics and world news</li>
+                </ul>
+                <button class="green-button">
+                    <a href="./signup.html">Intermediate</a>
+                </button>
+            </div>
+            <div>
+                <h3>Advanced</h3>
+                <ul>
+                    <li>15-30 min reading time</li>
+                    <li>Blogs with all kinds of language</li>
+                    <li>Blogs on interesting topics, world news, research, etc.</li>
+                </ul>
+                <button class="green-button">
+                    <a href="./signup.html">Advanced</a>
+                </button>
+            </div>
+        </div>
+
+        <table>
+            <tbody>
+                <tr>
+                    <td class="td-with-background"></td>
+                    <td class="td-with-background">Beginner</td>
+                    <td class="td-with-background">Intermediate</td>
+                    <td class="td-with-background">Advanced</td>
+                </tr>
+                <tr>
+                    <td class="td-with-background">Basic</td>
+                    <td>Free</td>
+                    <td>Free</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td class="td-with-background">Premium </td>
+                    <td>$5 / Month</td>
+                    <td>$15 / Month</td>
+                    <td>$25 / Month</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+     <!--Pie de página: Permite observar los datos de contacto de la página. Pertenece al mismo HTML principal-->
+
+
+    <footer id="Contact us">
+        <p>Tel: +57 310-203-9290</p>
+        <div>
+            <a href="https://www.instagram.com/coderhouse/" target="_blank"><img src="./Img/instagram_icon.png"
+                    alt="Instagram Icono"></a>
+            <a href="https://www.facebook.com/Coderhouse/" target="_blank"><img src="./Img/facebook_icon.png"
+                    alt="Facebook Icono"></a>
+            <a href="https://www.linkedin.com/school/coderhouse/" target="_blank"><img src="./Img/linkedin_icon.png"
+                    alt="Linkedin Icono"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
