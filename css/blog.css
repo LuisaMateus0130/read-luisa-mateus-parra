@@ -1,0 +1,97 @@
+/*CSS HTML ExampleBlog*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body header nav ul li button {
+  margin-left: 200px;
+  background-color: #06B696;
+  border-color: #439D7D;
+  font-size: 24px;
+  color: white;
+  width: 166px;
+  height: 60px;
+  border-radius: 38px;
+  position: relative;
+  top: -50px;
+  left: 930px; }
+
+body h1 {
+  color: #439D7D;
+  height: 200px;
+  width: 740px;
+  margin: 30px;
+  position: relative;
+  top: 100px;
+  font-family: 'Lato', sans-serif;
+  font-size: 45px;
+  margin-left: 500px; }
+
+body section p {
+  width: 939px;
+  height: 188px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 21px;
+  color: #585F63;
+  text-align: center;
+  position: relative;
+  top: -180px;
+  left: 280px;
+  padding: 5px 5px 300px 5px; }
+
+.estiloButton3 {
+  background-color: #06B696;
+  border-color: #439D7D;
+  font-size: 24px;
+  color: white;
+  width: 176px;
+  height: 41px;
+  border-radius: 10px;
+  position: relative;
+  top: -100px;
+  left: -130px; }
+
+.estiloInput {
+  padding: 5px 790px 50px 10px;
+  border-radius: 10px;
+  position: relative;
+  top: -220px;
+  left: 75px;
+  border: 2px solid gray; }
+
+.estiloNombre3 {
+  font-size: 23px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+  top: -250px; }
+
+.estiloPais3 {
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  top: -310px;
+  color: #6D787C;
+  position: relative;
+  top: -250px;
+  z-index: 2; }
+
+.estiloBandera3 {
+  width: 18px;
+  height: 16px;
+  position: relative;
+  top: -270px;
+  left: 670px;
+  z-index: 2; }
+
+.commentsExample {
+  color: #439D7D;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  top: -210px;
+  left: 300px;
+  z-index: 2; }
