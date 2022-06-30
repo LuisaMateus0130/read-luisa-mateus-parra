@@ -1,0 +1,82 @@
+header {
+  min-height: 10vh;
+  max-height: 10vh; }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 2vw; }
+    header nav .logo-divisor, header nav .menu-divisor {
+      display: flex;
+      align-items: center;
+      column-gap: 1vw; }
+      header nav .logo-divisor .logo-divisor__logo, header nav .menu-divisor .logo-divisor__logo {
+        width: 4vw; }
+      header nav .logo-divisor .logo-divisor__title, header nav .menu-divisor .logo-divisor__title {
+        font-size: 2vw;
+        color: #06B696; }
+    header nav .menu-divisor .menu-divisor__anchor {
+      font-size: 2vw;
+      color: #06B696; }
+    header nav .menu-divisor .menu-divisor__login-button {
+      background-color: #06B696;
+      color: #FFFFFF;
+      width: 8vw;
+      height: 2vw;
+      border-radius: 2vw; }
+
+main {
+  min-height: 90vh;
+  max-height: 90vh;
+  display: flex;
+  background-image: url("../img/signup_background_image.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  main .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 50vw;
+    max-width: 50vw; }
+    main .main-content .main-content__title {
+      color: #06B696;
+      font-size: 4vw; }
+    main .main-content .main-content__subtitle {
+      color: #06B696; }
+  main .form-content {
+    min-width: 50vw;
+    max-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    main .form-content .form-content__title {
+      font-size: 4vw;
+      color: #06B696;
+      text-align: center; }
+    main .form-content .social-media-icons {
+      display: flex;
+      justify-content: center;
+      column-gap: 3vw;
+      margin-top: 2vw; }
+      main .form-content .social-media-icons .social-media-icons__icon {
+        max-width: 2vw; }
+    main .form-content .sign-up-form {
+      width: 70%; }
+      main .form-content .sign-up-form div {
+        display: flex;
+        flex-direction: column; }
+      main .form-content .sign-up-form .sign-up-form__label {
+        color: #06B696; }
+      main .form-content .sign-up-form .sign-up-form__input {
+        border-bottom: 1px solid #06B696;
+        margin-bottom: 2vw;
+        padding: 1vw; }
+      main .form-content .sign-up-form .sign-up-form__button {
+        background-color: #06B696;
+        color: #FFFFFF;
+        width: 8vw;
+        height: 2vw;
+        border-radius: 2vw;
+        align-self: center; }

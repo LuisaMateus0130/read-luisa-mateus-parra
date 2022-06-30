@@ -229,6 +229,12 @@ footer {
     align-items: center;
     padding: 2% 5%;
 }
+
+footer img {
+    min-width: 2vw;
+    max-width: 2vw;
+}
+
 footer img:hover{
     transform: scale(1.1);
     transition: 0.5s;
